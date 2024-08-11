@@ -19,7 +19,7 @@ def load_data(file_path, nrows=None):
 
     return data
 
-data_sample = load_data(r"Beer-Production-Analysis\brewery_data_truncated.csv", nrows=15000)
+data_sample = load_data(r"brewery_data_truncated.csv", nrows=15000)
 
 tab1.title('Beer Production Analysis')
 
