@@ -1,9 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.express as px
 import altair as alt
 
 st.set_page_config(
