@@ -1,9 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.express as px
 import altair as alt
 
 st.set_page_config(
@@ -23,7 +19,7 @@ def load_data(file_path, nrows=None):
 
     return data
 
-data_sample = load_data(r"C:\Users\Kiree\Downloads\archive\brewery_data_complete_extended.csv", nrows=15000)
+data_sample = load_data(r"Beer-Production-Analysis\brewery_data_truncated.csv", nrows=15000)
 
 tab1.title('Beer Production Analysis')
 
